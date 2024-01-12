@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento de clinico geral</title>
+    <link rel="stylesheet" href="celia.css">
+</head>
+<body>
+
+    <center>
+        <h1>Clinico Geral Agendamento(s)</h1>
+    </center>
+
+<form id="formulario">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required><br>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" required><br>
+
+    <label for="medico">Médico:</label>
+    <input type="text" id="medico" required><br>
+
+    <label for="data">Data:</label>
+    <input type="date" id="data" required><br>
+
+    <label for="horario">Horário:</label>
+    <input type="time" id="horario" required><br>
+
+    <img src="mulher.png" alt="Mulher imagem">
+
+
+    <br><button type="submit" style="padding: 1%; background-color: rgb(59, 159, 164); color: rgb(255, 255, 255);">Agendar consulta</button>
+</form>
+
+<div id="resultados"></div>
+
+
+<script src="celia.js"></script>
+
+</body>
+</html>
